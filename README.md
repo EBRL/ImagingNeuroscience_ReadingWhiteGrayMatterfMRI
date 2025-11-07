@@ -2,11 +2,11 @@
 Analysis code analyzing white- and gray-matter fMRI connectivity in relation to reading
 
 # Inputs:
-a. Behavioral dataset
-b. White matter labels -- from Eve atlas
-c. Gray matter labels -- from Brodman Area atlas
-d. Participant white matter-gray matter functional connectivity matrices
-e. Example region of interest (ROI)-based connectivity matrix and coordinates
+1. Behavioral dataset
+2. White matter labels -- from Eve atlas
+3. Gray matter labels -- from Brodman Area atlas
+4. Participant white matter-gray matter functional connectivity matrices
+5. Example region of interest (ROI)-based connectivity matrix and coordinates
 
 # Analysis Steps:
 1. Load behavioral dataset [Input: a]

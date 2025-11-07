@@ -2,11 +2,11 @@
 Analysis code analyzing white- and gray-matter fMRI connectivity in relation to reading
 
 # Inputs:
-1. Behavioral dataset
-2. White matter labels -- from Eve atlas
-3. Gray matter labels -- from Brodman Area atlas
-4. Participant white matter-gray matter functional connectivity matrices
-5. Example region of interest (ROI)-based connectivity matrix and coordinates
+1. Behavioral dataset (a)
+2. White matter labels -- from Eve atlas (b)
+3. Gray matter labels -- from Brodman Area atlas (c)
+4. Participant white matter-gray matter functional connectivity matrices (d)
+5. Example region of interest (ROI)-based connectivity matrix and coordinates (e)
 
 # Analysis Steps:
 1. Load behavioral dataset [Input: a]
@@ -25,10 +25,10 @@ Analysis code analyzing white- and gray-matter fMRI connectivity in relation to 
 14. Visualize interaction plots [Figure 3b]
 
 # Outputs:
-Table 1. Descriptive statistics for the sample [Step 2]
-Supplementsal Figure 1. Group-averaged white matter-white matter functional connectivity matrix [Step 5]
-Figure 2a. Distrbutions of reading scores [Step 8]
-Figure 2b. Correlation between reading scores [Step 8]
-Table 2. Findings for left uncinate fasciculus and gray matter functional connectivity interactions with reading scores [Step 12]
-Figure 3a. Visualization of left uncinate fasciculus functional connectivity with gray matter structures that showed significant interactions with reading scores [Step 13]
-Figure 3b. Plots of interaction effects [Step 14]
+1. Table 1. Descriptive statistics for the sample [Step 2]
+2. Supplementsal Figure 1. Group-averaged white matter-white matter functional connectivity matrix [Step 5]
+3. Figure 2a. Distrbutions of reading scores [Step 8]
+4. Figure 2b. Correlation between reading scores [Step 8]
+5. Table 2. Findings for left uncinate fasciculus and gray matter functional connectivity interactions with reading scores [Step 12]
+6. Figure 3a. Visualization of left uncinate fasciculus functional connectivity with gray matter structures that showed significant interactions with reading scores [Step 13]
+7. Figure 3b. Plots of interaction effects [Step 14]
